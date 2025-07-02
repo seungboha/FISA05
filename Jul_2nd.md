@@ -23,6 +23,11 @@ my_playlist['pop'].append('If_I_Run (Astronauts, etc)')
 my_playlist['pop'].append('Timeless (Sergio Mendes)')
 my_playlist['jpop'].append("Distance (Utada Hikaru)")
 my_playlist['jazz(maybe?)'].append('We_are_all_muse')
+my_playlist['NewJeans'].extend(['Attention', 
+                                'Ditto', 
+                                'Hype Boy', 
+                                'Just pick any song'])
+my_playlist['MichaelJackson'].append('Prove me wrong')
 ```
 
 ### Deep vs shallow copy
