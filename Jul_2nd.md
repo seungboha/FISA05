@@ -14,6 +14,7 @@ a == b
 ### Recall  
 - defaultdict
 ```python
+"""
 from collections import defaultdict
 
 my_playlist = defaultdict(list)
@@ -28,6 +29,20 @@ my_playlist['NewJeans'].extend(['Attention',
                                 'Hype Boy', 
                                 'Just pick any song'])
 my_playlist['MichaelJackson'].append('Prove me wrong')
+"""
+
+my_playlist = dict()
+my_playlist['pop'] = ['If I Run (Astronauts, etc)', 
+                      'Baby I (Ariana Grande)']
+my_playlist['jpop'] = ['Distance (Utada Hikaru)']
+my_playlist['jazz(maybe?)'] = ['Timeless (Sergio Mendes)',
+                               'We are all muse (Yerin Baek)']
+my_playlist['pop'].append('When can I see you again')
+my_playlist['NewJeans'] = ['Attention', 
+                            'Ditto', 
+                            'Hype Boy', 
+                            'Just pick any song']
+my_playlist['MichaelJackson'] = ["Just every song", "Prove me wrong"]
 ```
 
 ### Deep vs shallow copy
