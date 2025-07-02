@@ -33,7 +33,7 @@ greetings2[0] = 'GoorMorning'
 print(greetings)
 ```
 - We get ['Hello', 'Bye', 'Hi', ['GoorMorning', 'GoodBye']]
-- To keep the original value, there are several methods. (These are all I know)
+- To keep the original value, there are several methods. (Honestly, these are all I know)
 
 **1. Library**
 ```python
