@@ -25,8 +25,7 @@ my_playlist['jazz(maybe?)'].append('We_are_all_muse')
 ```
 
 ### Deep vs shallow copy
-- Using library
-
+0. This is shallow copy
 ```python
 greetings = ['Hello', 'Bye', 'Hi', ['GoodNight', 'GoodBye']]
 greetings2 = greetings[-1]
