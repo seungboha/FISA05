@@ -25,19 +25,17 @@ my_playlist['jazz(maybe?)'].append('We_are_all_muse')
 ```
 
 ### Deep vs shallow copy
-0. This is shallow copy
+**0. This is shallow copy**
 ```python
 greetings = ['Hello', 'Bye', 'Hi', ['GoodNight', 'GoodBye']]
 greetings2 = greetings[-1]
 greetings2[0] = 'GoorMorning'
 print(greetings)
 ```
-
 - We get ['Hello', 'Bye', 'Hi', ['GoorMorning', 'GoodBye']]
 - To keep the original value, there are several methods. (These are all I know)
 
-1. Library
-
+**1. Library**
 ```python
 import copy
 
@@ -47,8 +45,7 @@ greetings2[0] = 'GoodMorning'
 print(greetings)
 ```
 
-2. When importing is not allowed, keep this syntax in mind.
-
+**2. When importing is not allowed, keep this syntax in mind.**
 ```python
 greetings = ['Hello', 'Bye', 'Hi', ['GoodNight', 'GoodBye']]
 greetings2 = []
@@ -58,5 +55,4 @@ greetings2[0] = "GoodMorning"
 print(greetings)
 print(greetings2)
 ```
-
 We can keep the original values
